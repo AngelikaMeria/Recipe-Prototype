@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #DFD683;">
-    <div class="container ">
+    <div class="container">
     <a href="homepage.php" class="logo">
             <img src="assets/logoo.png" alt="">
           </a>
@@ -18,7 +18,7 @@
                     <a class="nav-link active" aria-current="page" id="service" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="uploadingRecipe.php">Upload Recipe</a>
+                    <a class="nav-link active" aria-current="page" href="Myappointment.php">Upload Recipe</a>
                 </li>
                 <?php if (isset($_SESSION['authenticated'])) : ?>
                     <li class="nav-item dropdown">

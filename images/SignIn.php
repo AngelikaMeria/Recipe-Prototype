@@ -18,7 +18,7 @@ $conn = $db->conn;
     <link rel="stylesheet" href="assets/css/bootstrap5.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="ccs/login.css">    
-    <title>Sign In</title>
+    <title>Log-In</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>

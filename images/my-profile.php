@@ -57,9 +57,9 @@ if (isset($_POST['submit'])) {
     
 </head>
 <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #DFD683;">
-    <div class="container ">
-    <a href="homepage.php" class="logo">
-            <img src="assets/logoo.png" alt="">
+    <div class="container">
+    <a href="index.php" class="logo">
+            <img src="images/logo2.png" alt="">
           </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
                     <a class="nav-link active" aria-current="page" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" id="service" href="contact.php">Contact</a>
+                    <a class="nav-link active" aria-current="page" id="service" href="services.php">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="Myappointment.php">Upload Recipe</a>
@@ -99,7 +99,6 @@ if (isset($_POST['submit'])) {
         </div>
     </div>
 </nav>
-<main class="page">
 <div class="container">
     <div class="jumbotron">
 
@@ -182,26 +181,42 @@ if (isset($_POST['submit'])) {
         </div>
     </div>
 </div>
+
+
 </div>
-</main>
-<section>
-
-</section>
-    <section>
-
-    </section>
-    <section>
-
-</section>
 <!--    -------- Footer Section Start ------------- -->
-    <footer class="page-footer">
-      <p>
-      &copy; <span id="date"></span>
-        <span class="footer-logo">2022 Recipick</span> Built by
-        <a href>CTRL INTELLEGENCE</a>
-      </p>
-    </footer>
-    <script src="./js/app.js"></script>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="index.php" class="logo foo-logo">
+          <img src="images/logo2.png" alt="">
+        </a>
+        <nav class="foo-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+           <!---- <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="services.php">Service</a></li>---->
+            <li><a href="html.html">TEAM</a></li>
+          </ul>
+        </nav>
+       <!--- <div class="foo-social">
+          <a href="https://www.facebook.com/PatHairTricksSalon"><i class="ti-facebook"></i></a>
+          <!- <a href="#"><i class="ti-twitter-alt"></i></a>
+            <a href="#"><i class="ti-vimeo-alt"></i></a> 
+          <a href="https://www.instagram.com/pathairtricksalon/"><i class="ti-instagram"></i></a>
+        </div>
+        <p class="copyright">&copy; COPYRIGHT 2022 <a href="https://www.instagram.com/pathairtricksalon/">Pat Hair Tricks Salon</a> ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </div>--->
+  <script>
+    if (window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+    }
+  </script>
+</footer>
 <!--    -------- Footer Section End ------------- -->
 
 

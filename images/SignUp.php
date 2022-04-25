@@ -16,7 +16,7 @@ $auth->isLoggedIn();
    
     <link rel="stylesheet" href="assets/css/bootstrap5.min.css">
     <link rel="stylesheet" href="ccs/reg.css"> 
-    <title>Sign Up</title>
+    <title>Register</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 

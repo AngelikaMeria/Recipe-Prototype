@@ -596,6 +596,8 @@ About Page
 
 .featured-title {
   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
 /*
 =============== 
@@ -603,8 +605,17 @@ Contact Page
 ===============
 */
 .contact-form {
+  background: #E7E0A6;
   width: 100%;
-  margin: 0;
+  height: 30%;
+  margin-top: -150px;
+}
+.contact-form input{
+    color: #000;
+    background: #ffffff;
+}
+.contact-form textarea{
+    background: #ffffff;
 }
 .contact-container {
   display: grid;

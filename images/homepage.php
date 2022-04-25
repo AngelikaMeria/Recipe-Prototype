@@ -19,7 +19,7 @@ include('includes/navbar.php');
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Recipick</title>
+  <title>Pat Hair Tricks</title>
   <link rel="icon" type="image/x-icon" href="images/logo.png">
  <!-- main -->
  <main class="page">
@@ -210,7 +210,7 @@ include('includes/navbar.php');
     <footer class="page-footer">
       <p>
         &copy; <span id="date"></span>
-        <span class="footer-logo">2022 Recipick</span> Built by
+        <span class="footer-logo">Recipick</span> Built by
         <a href>CTRL INTELLEGENCE</a>
       </p>
     </footer>
